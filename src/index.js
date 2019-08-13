@@ -27,7 +27,7 @@ checkbox.forEach( (elem) => {
 		else {
 			this.nextElementSibling.classList.remove('checked');
 			// console.log('No');
-		}
+		} 
 		// console.log(this.checked);
 });
 });
@@ -79,6 +79,6 @@ function showData() {
 	countGoods.textContent = cardsCart.length;
 	// console.log(cardsCart.length);
 }
-
+// console.log('');
 // работа с товаром 
 // **********************************************
