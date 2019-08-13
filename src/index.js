@@ -31,7 +31,7 @@ checkbox.forEach( (elem) => {
 		// console.log(this.checked);
 });
 });
-
+ 
 // console.dir(checkbox);
 // console.log(checkbox);
 
