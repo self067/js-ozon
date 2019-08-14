@@ -151,9 +151,9 @@ function filterActions() {
 	max.addEventListener('change', filterAll);
 
 	searchBtn.addEventListener('click', filterAll);
-	search.addEventListener('keydown', (e) => {
-		console.log(e);
-		if (e.keyCode === 13) filterAll()});
+	search.addEventListener('keydown', (e) => {	
+		if (e.keyCode === 13) filterAll();
+	});
 	
     
 
