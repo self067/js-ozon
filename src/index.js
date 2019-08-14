@@ -151,7 +151,11 @@ function filterActions() {
 	max.addEventListener('change', filterAll);
 
 	searchBtn.addEventListener('click', filterAll);
-
+	search.addEventListener('keydown', (e) => {
+		console.log(e);
+		if (e.keyCode === 13) filterAll()});
+	
+    
 
 	// // фильтр по акции
 	// discountCheckbox.addEventListener('click', () => {
